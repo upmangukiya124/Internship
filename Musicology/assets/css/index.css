@@ -1,0 +1,1064 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap");
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css);
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .collapse {
+  justify-content: space-between;
+  font-size: 25px;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  height: 100%;
+}
+
+.navbar .nav-contenet {
+  width: 60%;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+  margin: auto;
+}
+
+.title-hear {
+  top: -100px;
+  width: 100%;
+  height: 1000px;
+  background: url('../images/title-hear.jpg') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title-hear .container {
+  width: 50%;
+  margin: 0;
+  padding-left: 200px;
+  padding-bottom: 150px;
+}
+
+.title-hear .title {
+  color: white;
+  font-size: 125px;
+}
+
+.title-hear .container p {
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-hear .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e8631c;
+  color: white;
+  width: 50%;
+  height: 4rem;
+  font-size: 29px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dance-tour {
+  background: url('../images/dt-design.png') no-repeat;
+  background-color: #e8631c;
+  background-size: 50% 100%;
+  background-position-y: -300px;
+}
+
+.dance-tour .container-dance-tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  color: white;
+  padding-bottom: 100px;
+  flex-direction: column;
+}
+
+.dance-tour .container-dance-tour .dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dance-tour .container-dance-tour .tour {
+  margin-top: 100px;
+  font-size: 75px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.dance-tour .container-dance-tour .t-info {
+  width: 50%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dance-tour .container-dance-tour .card {
+  width: 90%;
+  border-radius: 0px;
+  border: none;
+}
+
+.dance-tour .container-dance-tour .card-body {
+  background-color: #303030;
+  width: 100%;
+  border: none;
+}
+
+.dance-tour .container-dance-tour .card-body {
+  color: white;
+}
+
+.dance-tour .container-dance-tour .card-body h1 {
+  font-size: 37px;
+  font-weight: 900;
+}
+
+.dance-tour .container-dance-tour .card-text {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-pricing {
+  background: url('../images/prisingdesign.png') no-repeat;
+  background-color: #303030;
+  background-position: center;
+  background-size: 140% 120%;
+}
+
+.section-pricing .container-pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  color: white;
+  padding-bottom: 100px;
+  flex-direction: column;
+}
+
+.section-pricing .container-pricing .dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-pricing .container-pricing .pricing {
+  margin-top: 100px;
+  font-size: 75px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.section-pricing .container-pricing .p-info {
+  width: 50%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-pricing .container-pricing .card {
+  width: 90%;
+  border: none;
+  background: transparent;
+}
+
+.section-pricing .container-pricing .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #e8631c;
+  border-radius: 5px;
+}
+
+.section-pricing .container-pricing .card-body .btn {
+  background-color: #303030;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+  font-size: 25px;
+}
+
+.section-pricing .container-pricing .card-body .card-tital {
+  font-size: 37px;
+}
+
+.section-pricing .container-pricing .card-body .bi-award {
+  font-size: 200px;
+  margin: 20% 2%;
+  width: auto;
+}
+
+.section-pricing .container-pricing .card-body .card-text {
+  font-size: 22px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-d {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-d .wrap2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-d .img1 {
+  background: url('../images/amazing-dance.png') no-repeat;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-size: 100% 100%;
+}
+
+.container-d .img2 {
+  background: url('../images/best-dance.png') no-repeat;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-size: 100% 100%;
+}
+
+.container-d .text1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: left;
+  width: 50%;
+  background-color: #e8631c;
+}
+
+.container-d #txt1 {
+  background: url('../images/amzing-design.png') no-repeat;
+  background-color: #e8631c;
+  background-size: 90% 100%;
+  background-position: bottom right;
+  background-position-y: 400px;
+  background-position-x: 100px;
+}
+
+.container-d #txt2 {
+  background: url('../images/best_dance-design.png') no-repeat;
+  background-color: #e8631c;
+  background-size: 90% 100%;
+  background-position: bottom left;
+  background-position-y: 450px;
+  background-position-x: -50px;
+}
+
+.container-d .pos {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.container-d h1 {
+  font-size: 75px;
+  color: white;
+  width: 80%;
+}
+
+.container-d p {
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-d .signup-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #303030;
+  color: white;
+  font-size: 29px;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  height: 4rem;
+  padding-bottom: 5px;
+}
+
+.statestics {
+  width: 1496px;
+  background-color: #303030;
+}
+
+.statestics .container-stat {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+
+  flex-direction: column;
+  background-color: #303030;
+  color: white;
+  padding-bottom: 200px;
+}
+
+.statestics .head {
+  margin-top: 100px;
+  font-size: 75px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.statestics .txt {
+  width: 50%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: 45%;
+  margin-top: 0px;
+}
+
+.statestics .num {
+  font-size: 67px;
+  font-weight: 900;
+}
+
+.statestics .info {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.testemoniol {
+  width: 100%;
+  height: 975px;
+  background: url('../images/simson.jpg') no-repeat;
+  background-size: 100% 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.testemoniol .container-fluid {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(232, 99, 28, 0.4);
+  height: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.testemoniol .text {
+  width: 50%;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.testemoniol .hs {
+  margin-top: 50px;
+  font-size: 58px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('../images/subdesign.png') no-repeat;
+  background-color: #e8631c;
+  background-size: 150% 150%;
+  background-position: center;
+}
+
+.subscribe .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.subscribe .heading {
+  font-size: 75px;
+  font-weight: 900;
+  color: white;
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 150px;
+}
+
+.subscribe .paragraph {
+  width: 50%;
+  font-size: 30px;
+  color: white;
+  margin-top: 35px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subscribe .signup-form {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+
+  flex-direction: row;
+  margin-top: 50px;
+  width: 70%;
+}
+
+.subscribe .signup-form .signup-form-input {
+  width: 70%;
+  height: 3rem;
+  border: 0.2rem solid white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe .signup-form .signup-form-input::-webkit-input-placeholder {
+  padding-left: 10%;
+  color: transparent;
+  color: #7f7f7f;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe .signup-form .signup-form-input:-ms-input-placeholder {
+  padding-left: 10%;
+  color: transparent;
+  color: #7f7f7f;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe .signup-form .signup-form-input::-ms-input-placeholder {
+  padding-left: 10%;
+  color: transparent;
+  color: #7f7f7f;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe .signup-form .signup-form-input::placeholder {
+  padding-left: 10%;
+  color: transparent;
+  color: #7f7f7f;
+  font-family: "Oswald", sans-serif;
+}
+
+.subscribe .signup-form .signup-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 3rem;
+  background-color: #303030;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 0 70px;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer {
+  padding: 100px 20px 20px;
+  background: #303030;
+  -webkit-columns: white;
+  columns: white;
+}
+
+.footer .container-f {
+  display: flex;
+}
+
+.footer .rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: space-around;
+}
+
+.footer .colm {
+  width: 40%;
+}
+
+.footer .footer-logo {
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  text-align: left;
+  font-size: 33px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.footer p {
+  text-align: left;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+.footer hr {
+  margin-top: 10px;
+  background: white;
+}
+
+.footer .qwerty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.footer .zxc {
+
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-around;
+  color: #303030;
+}
+
+@media only screen and (max-width: 1025px) {
+  .title-hear .title {
+    font-size: 75px;
+  }
+  .title-hear .container {
+    padding-bottom: 100px;
+    padding-left: 100px;
+    width: 65%;
+  }
+  .section-pricing .container-pricing .pricing {
+    font-size: 60px;
+  }
+  .section-pricing .container-pricing .p-info {
+    font-size: 30px;
+    width: 80%;
+    margin-top: 0px;
+  }
+  .section-pricing .container-pricing .container-fluid .bi-award {
+    font-size: 150px;
+  }
+  .dance-tour .container-dance-tour .tour {
+    font-size: 60px;
+    margin-top: 50px;
+  }
+  .dance-tour .container-dance-tour .t-info {
+    width: 80%;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .dance-tour .container-dance-tour .card-body h1 {
+    font-size: 30px;
+  }
+  .dance-tour .container-dance-tour .card-body .card-text {
+    font-size: 20px;
+  }
+  .img1, .img2 {
+    height: 700px;
+  }
+  .pos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pos h1 {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .pos p {
+    font-size: 28px;
+    text-align: center;
+    width: 110%;
+  }
+  .pos .signup-form-btn {
+    font-size: 30px;
+  }
+  .testemoniol .text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 70%;
+    font-size: 40px;
+  }
+  .testemoniol .hs {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .title-hear {
+    height: 700px;
+  }
+  .title-hear .title {
+    font-size: 50px;
+  }
+  .title-hear .container {
+    padding-bottom: 70px;
+    padding-left: 70px;
+    width: 70%;
+  }
+  .title-hear p {
+    font-size: 25px;
+  }
+  .title-hear .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+  }
+  .dance-tour .container-dance-tour .tour {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  .dance-tour .container-dance-tour .t-info {
+    width: 90%;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .dance-tour .container-dance-tour .card {
+    padding-bottom: 50px;
+    background: transparent;
+  }
+  .dance-tour .container-dance-tour .card h1 {
+    font-size: 40px;
+  }
+  .dance-tour .container-dance-tour .card .card-text {
+    font-size: 30px;
+  }
+  .section-pricing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section-pricing .container-pricing {
+    padding-bottom: 20px;
+  }
+  .section-pricing .container-pricing .pricing {
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+  }
+  .section-pricing .container-pricing .p-info {
+    font-size: 30px;
+    width: 90%;
+  }
+  .section-pricing .container-pricing .container-fluid .card {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .section-pricing .container-pricing .container-fluid .bi-award {
+    font-size: 150px;
+  }
+  .section-pricing .container-pricing .container-fluid h1 {
+    font-size: 40px;
+  }
+  .section-pricing .container-pricing .container-fluid .card-text {
+    font-size: 25px;
+  }
+  .section-pricing .container-pricing .container-fluid .btn {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    height: 3rem;
+    font-size: 30px;
+  }
+  .container-d .wrap2 {
+
+    flex-direction: column;
+  }
+  .container-d .wrap2 .img1, .container-d .wrap2 .img2 {
+    width: 100%;
+    height: 1000px;
+  }
+  .container-d .wrap2 .text1 {
+    width: 100%;
+  }
+  .container-d #wrap2 {
+
+    flex-direction: column-reverse;
+  }
+  .container-d .pos {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .container-d .pos h1 {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+  }
+  .container-d .pos p {
+    font-size: 30px;
+    text-align: center;
+  }
+  .container-d .pos .signup-form-btn {
+    font-size: 30px;
+  }
+  .statestics .container-stat .head {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+  }
+  .statestics .container-stat .txt {
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+  .statestics .container-stat .num {
+    font-size: 50px;
+  }
+  .statestics .container-stat .info {
+    font-size: 35px;
+  }
+  .testemoniol {
+    height: 600px;
+  }
+  .testemoniol .text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    font-size: 30px;
+  }
+  .testemoniol .text .hs {
+    font-size: 60px;
+  }
+  .subscribe .heading {
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .subscribe .text {
+    margin-bottom: 25px;
+  }
+  .subscribe .paragraph {
+    width: 70%;
+  }
+  .subscribe .signup-form {
+    width: 80%;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .subscribe .signup-form .signup-form-input {
+    width: 80%;
+    font-size: 30px;
+    height: 3rem;
+  }
+  .subscribe .signup-form .signup-form-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+    height: 3rem;
+  }
+  .footer {
+    padding-top: 25px;
+  }
+  .footer h4 {
+    font-size: 25px;
+  }
+  .footer .container-f .rows {
+
+    justify-content: flex-start;
+  }
+  .footer .container-f .rows .colm {
+    width: 80%;
+  }
+  .footer .container-f .rows .colm .zxc {
+    width: 60%;
+  }
+  .footer .container-f .rows .colm .qwerty {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  .footer .container-f .rows .colm1 {
+    width: 30%;
+  }
+  .footer p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .title-hear {
+    height: 500px;
+  }
+  .title-hear .title {
+    font-size: 40px;
+  }
+  .title-hear .container {
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 80%;
+  }
+  .title-hear .container p {
+    font-size: 20px;
+  }
+  .title-hear .container .button {
+    width: 70%;
+    font-size: 20px;
+    height: 3rem;
+  }
+  .dance-tour .container-dance-tour {
+    padding-bottom: 50px;
+  }
+  .dance-tour .container-dance-tour .container-fluid .row {
+
+    flex-direction: column;
+  }
+  .dance-tour .container-dance-tour .tour {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .dance-tour .container-dance-tour .t-info {
+    width: 80%;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .dance-tour .container-dance-tour .dt {
+    background: transparent;
+  }
+  .dance-tour .container-dance-tour .card {
+    padding-bottom: 50px;
+    background: transparent;
+  }
+  .dance-tour .container-dance-tour .card h1 {
+    font-size: 25px;
+  }
+  .dance-tour .container-dance-tour .card .card-text {
+    font-size: 18px;
+  }
+  .section-pricing {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  .section-pricing .container-pricing title {
+    font-size: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+  }
+  .section-pricing .container-pricing .p-info {
+    font-size: 25px;
+  }
+  .section-pricing .container-pricing .card-row {
+    background-color: transparent;
+  }
+  .section-pricing .container-pricing .card {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .section-pricing .container-pricing .card .card-body .bi-award {
+    font-size: 100px;
+  }
+  .section-pricing .container-pricing .card .card-body h1 {
+    font-size: 30px;
+  }
+  .section-pricing .container-pricing .card .card-body .card-text {
+    font-size: 18px;
+  }
+  .section-pricing .container-pricing .card .card-body .btn {
+    height: 2rem;
+    font-size: 20px;
+  }
+  .container-d .wrap2 .img1, .container-d .wrap2 .img2 {
+    height: 500px;
+  }
+  .container-d .wrap2 .pos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container-d .wrap2 .pos h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .container-d .wrap2 .pos p {
+    font-size: 15px;
+  }
+  .container-d .wrap2 .pos .signup-form-btn {
+    font-size: 20px;
+  }
+  .statestics .container-stat {
+    padding-bottom: 50px;
+  }
+  .statestics .container-stat .head {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .statestics .container-stat .txt {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+  .statestics .container-stat .num {
+    font-size: 30px;
+  }
+  .statestics .container-stat .info {
+    font-size: 15px;
+  }
+  .testemoniol {
+    height: 500px;
+  }
+  .testemoniol .text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    font-size: 25px;
+  }
+  .testemoniol .text .hs {
+    font-size: 40px;
+  }
+  .subscribe .text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 90%;
+    font-size: 20px;
+  }
+  .subscribe .text .hs {
+    font-size: 29px;
+  }
+  .subscribe .heading {
+    font-size: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .subscribe .paragraph {
+    width: 90%;
+    font-size: 20px;
+  }
+  .subscribe .text {
+    margin-bottom: 25px;
+  }
+  .subscribe .signup-form {
+    width: 95%;
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .subscribe .signup-form .signup-form-input {
+    width: 80%;
+    font-size: 20px;
+    height: 2rem;
+  }
+  .subscribe .signup-form .signup-form-btn {
+    width: 20%;
+    font-size: 20px;
+    height: 2rem;
+  }
+  .footer {
+    padding-top: 25px;
+  }
+  .footer .container-f h4 {
+    font-size: 25px;
+  }
+  .footer .container-f .rows {
+    justify-content: flex-start;
+  }
+  .footer .container-f .rows .colm {
+    width: 80%;
+  }
+  .footer .container-f .rows .colm .zxc {
+    width: 60%;
+  }
+  .footer .container-f .rows .colm .qwerty {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .footer .container-f .rows .colm1 {
+    width: 50%;
+  }
+  .footer .container-f p {
+    font-size: 15px !important;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
